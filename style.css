@@ -1,0 +1,39 @@
+@font-face{
+    font-family: retep;
+    src:url(fonts/retep.TTF)
+}
+body{
+    background-image:url(images/steamuserimages-a.akamaihd.net);
+    background-color:#ffffff;
+    font-family: brandon-grotesque;
+    
+}
+h1{
+    font-family: "retep",sans-serif;
+}
+.body {
+    list-style-type:none;
+    margin:-8px;
+    overflow: hidden;
+    background-color: white;
+    padding-left:0px;
+    
+}
+.body li{
+    float: center;
+
+    
+}
+.body li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+    
+}
+.body li a:hover {
+    background-color:#111;
+    color:white;
+}
+
